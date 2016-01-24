@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/Countries.xml -->
+    <eat-comment/>
+    <string-array name="Countries">
+    <item>Anguilla</item>
+    <item>Antigua_and_Barbuda</item>
+    <item>Bahamas</item>
+    <item>Barbados</item>
+    <item>Belize</item>
+    <item>Belize</item>
+    <item>Canada</item>
+    <item>Cayman_Islands</item>
+    <item>Costa_Rica</item>
+    <item>Cuba</item>
+    <item>Dominican_Republic</item>
+    <item>Dominica</item>
+    <item>El_Salvador</item>
+    <item>Grenada</item>
+    <item>Guatemala</item>
+    <item>Haiti</item>
+    <item>Honduras</item>
+    <item>Jamaica</item>
+    <item>Martinique</item>
+    <item>Mexico</item>
+    <item>Montserrat</item>
+    <item>Nicaragua</item>
+    <item>Panama</item>
+    <item>Puerto_Rico</item>
+    <item>Saint_Kitts_and_Nevis</item>
+    <item>Saint_Lucia</item>
+    <item>Saint_Pierre</item>
+    <item>St._Vincent_and_Grenadines</item>
+    <item>Turks_and_Caicos_Islands</item>
+    <item>United_States_of_America</item>
+    <item>US_Virgin_Islands</item>
+    <item>british_virgin_islands</item>
+    <item>Aruba</item>
+</string-array>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/capitals.xml -->
+    <eat-comment/>
+    <string-array name="capitals">
+    <item>The_Valley</item>
+    <item>St._Johns</item>
+    <item>Nassau</item>
+    <item>BridgeTown</item>
+    <item>Belmopan</item>
+    <item>Hamilton</item>
+    <item>Ottawa</item>
+    <item>George Town</item>
+    <item>Funky_Town</item>
+    <item>Havana</item>
+    <item>Santo_Domingo</item>
+    <item>Roseau</item>
+    <item>San_Salvador</item>
+    <item>St._George</item>
+    <item>Guatemala_City</item>
+    <item>Port-au-Prince</item>
+    <item>Tegucigalpa</item>
+    <item>Kingston</item>
+    <item>Fort-de-France</item>
+    <item>Mexico_City</item>
+    <item>Plymouth</item>
+    <item>Managua</item>
+    <item>Panama_City</item>
+    <item>San_Juan</item>
+    <item>Basseterre</item>
+    <item>Castries</item>
+    <item>Saint_Pierre</item>
+    <item>Kingstown</item>
+    <item>Cock_burn</item>
+    <item>Washington_D_C</item>
+    <item>Charlotte_Amalie</item>
+    <item>Road_Town</item>
+    <item>Oranjestad</item>
+</string-array>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="guesses_list">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="high_scores">
+        <item>totalPoints</item>
+
+    </string-array>
+    <string-array name="multiplayer">multiplayer</string-array>
+    <string-array name="number_of_players">number_of_players</string-array>
+    <string-array name="regions_list">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North_America</item>
+        <item>Oceania</item>
+        <item>South_America</item>
+    </string-array>
+    <string-array name="regions_list_for_settings">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>Oceania</item>
+        <item>South America</item>
+    </string-array>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="correct_answer">#00CC00</color>
+    <color name="incorrect_answer">#FF0000</color>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="answer_size">40sp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="fragmentList" type="id"/>
+    <item name="number_of_players" type="id"/>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/refs.xml -->
+    <eat-comment/>
+    <item name="fragment_item" type="layout">@layout/fragment_item_list</item>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Enter_text_here">Enter text here..</string>
+    <string name="Wikipedia">Learn</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Flag Quiz5.5</string>
+    <string name="capitalHint">Enter Capital For This Country</string>
+    <string name="capitals">Guess the capital</string>
+    <string name="continueButton">Continue</string>
+    <string name="default_region">North_America</string>
+    <string name="default_region_message">Setting North America as the default region. One region must be selected.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="guess_country">Guess the Country</string>
+    <string name="image_description">Image of the current flag in the quiz</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="multi_player_description">%1$d is the Number of players </string>
+    <string name="number_of_choices">Number of Choices</string>
+    <string name="number_of_choices_description">Display 3, 6 or 9 guess buttons</string>
+    <string name="ok">OK</string>
+    <string name="players">Players</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="restarting_quiz">Quiz will restart with your new settings</string>
+    <string name="results">%1$d guesses, %2$d correct on first try, %3$.02f%% correct, %4$d total score</string>
+    <string name="scores">are the high scores</string>
+    <string name="searchURL">http://mobile.wikipedia.com/search/</string>
+    <string name="settings_activity">Flag Quiz Settings</string>
+    <string name="world_regions">Regions</string>
+    <string name="world_regions_description">Regions to include in the quiz</string>
+    <string name="wrongAnswer">Incorrect!</string>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

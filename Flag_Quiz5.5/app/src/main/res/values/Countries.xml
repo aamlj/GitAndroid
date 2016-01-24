@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string-array name="Countries">
+    <item>Anguilla</item>
+    <item>Antigua_and_Barbuda</item>
+    <item>Bahamas</item>
+    <item>Barbados</item>
+    <item>Belize</item>
+    <item>Belize</item>
+    <item>Canada</item>
+    <item>Cayman_Islands</item>
+    <item>Costa_Rica</item>
+    <item>Cuba</item>
+    <item>Dominican_Republic</item>
+    <item>Dominica</item>
+    <item>El_Salvador</item>
+    <item>Grenada</item>
+    <item>Guatemala</item>
+    <item>Haiti</item>
+    <item>Honduras</item>
+    <item>Jamaica</item>
+    <item>Martinique</item>
+    <item>Mexico</item>
+    <item>Montserrat</item>
+    <item>Nicaragua</item>
+    <item>Panama</item>
+    <item>Puerto_Rico</item>
+    <item>Saint_Kitts_and_Nevis</item>
+    <item>Saint_Lucia</item>
+    <item>Saint_Pierre</item>
+    <item>St._Vincent_and_Grenadines</item>
+    <item>Turks_and_Caicos_Islands</item>
+    <item>United_States_of_America</item>
+    <item>US_Virgin_Islands</item>
+    <item>british_virgin_islands</item>
+    <item>Aruba</item>
+</string-array></resources>

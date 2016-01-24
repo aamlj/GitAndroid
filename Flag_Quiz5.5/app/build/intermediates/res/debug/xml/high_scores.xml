@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numberOfChoices"
+        android:persistent="true"
+        android:summary="@string/number_of_choices_description"
+        android:title="@string/number_of_choices"
+        android:defaultValue="3"/>
+</PreferenceScreen><!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/xml/high_scores.xml -->

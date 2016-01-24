@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\aamlj_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Flag_Quiz5.5\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-648fc3a0f8428509a2502103056abcddc8d6f9d7.jar" />
+    </item>
+
+</items>

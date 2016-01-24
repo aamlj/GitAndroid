@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/WEB%20151/Projects/Flag_Quiz5.5/app/src/main/res/values-sw600dp/refs.xml -->
+    <eat-comment/>
+    <item name="fragment_item" type="layout">@layout/fragment_item_grid</item>
+</resources>

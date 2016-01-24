@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string-array name="capitals">
+    <item>The_Valley</item>
+    <item>St._Johns</item>
+    <item>Nassau</item>
+    <item>BridgeTown</item>
+    <item>Belmopan</item>
+    <item>Hamilton</item>
+    <item>Ottawa</item>
+    <item>George Town</item>
+    <item>Funky_Town</item>
+    <item>Havana</item>
+    <item>Santo_Domingo</item>
+    <item>Roseau</item>
+    <item>San_Salvador</item>
+    <item>St._George</item>
+    <item>Guatemala_City</item>
+    <item>Port-au-Prince</item>
+    <item>Tegucigalpa</item>
+    <item>Kingston</item>
+    <item>Fort-de-France</item>
+    <item>Mexico_City</item>
+    <item>Plymouth</item>
+    <item>Managua</item>
+    <item>Panama_City</item>
+    <item>San_Juan</item>
+    <item>Basseterre</item>
+    <item>Castries</item>
+    <item>Saint_Pierre</item>
+    <item>Kingstown</item>
+    <item>Cock_burn</item>
+    <item>Washington_D_C</item>
+    <item>Charlotte_Amalie</item>
+    <item>Road_Town</item>
+    <item>Oranjestad</item>
+</string-array></resources>

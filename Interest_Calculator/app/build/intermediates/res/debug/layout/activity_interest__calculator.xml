@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context=".Interest_Calculator">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:keepScreenOn="true" android:textColor="#33b5e5"
+        android:textStyle="bold" android:textSize="50sp" android:gravity="center"
+        android:text="" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="right">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/amountOfLoan"
+            android:layout_gravity="left|top"
+            android:background="@android:color/holo_green_light"
+            android:numeric="decimal" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/interestRate"
+            android:layout_gravity="top|bottom|right"
+            android:background="@android:color/holo_green_light"
+            android:clickable="true"
+            android:numeric="decimal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" calculate monthly term"
+            android:id="@+id/calculate"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onButtonClick" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/monthlyPayments"
+            android:layout_gravity="right|bottom"
+            android:background="@android:color/holo_green_light"
+            android:gravity="top" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/yearlyTerm"
+            android:layout_gravity="left|bottom"
+            android:background="@android:color/holo_green_light"
+            android:gravity="top|center"
+            android:numeric="integer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter loan amount"
+            android:id="@+id/textView"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Enter APR        "
+            android:id="@+id/textView2"
+            android:layout_gravity="top|center|right" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView3"
+            android:layout_gravity="bottom|right"
+            android:gravity="top"
+            android:numeric="decimal"
+            android:text="Monthly Payment" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Number of years"
+            android:id="@+id/textView4"
+            android:layout_gravity="left|bottom" />
+    </FrameLayout>
+
+</FrameLayout>
+<!-- From: file:/G:/Interest_Calculator/app/src/main/res/layout/activity_interest__calculator.xml -->
